@@ -1,18 +1,10 @@
 package LinkedList;
 
-public class BasicLL {
+public class BasicLL{
 
-    public static class Node{
-        int data; //value
-        Node next; // address of next node
 
-        //Node constructor
-        Node(int data){
-            this.data = data;
-        }
-    }
 
-//  Display Function
+    //  Display Function
     public static void display(Node head){
         Node temp3 = head;
         while(temp3 != null){
